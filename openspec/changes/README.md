@@ -1,0 +1,1 @@
+# OpenSpec changes (fixture)
