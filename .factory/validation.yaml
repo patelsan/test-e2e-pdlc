@@ -1,4 +1,13 @@
 # .factory/validation.yaml — the onboarding manifest (task 1.4).
 # Fetched + schema-validated at the protected base commit on every
 # admission; missing or invalid fails closed to NEEDS_OPERATOR.
-required: true
+schemaVersion: factory/validation/v1
+openspec:
+  cliVersion: "1.3.1"
+  schema: spec-driven
+  requiredArtifacts:
+    - proposal
+    - design
+    - specs
+    - tasks
+
